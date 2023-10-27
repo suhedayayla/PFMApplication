@@ -13,13 +13,18 @@ import {
   Text,
 } from 'react-native';
 import SignInScreen from './src/screens/SignInScreen';
+import SignUpScreen from './src/screens/SignUpScreen';
+import ConfirmEmailScreen from './src/screens/ConfirmEmailScreen';
+import ForgotPasswordScreen from './src/screens/ForgotPasswordScreen';
+import NewPasswordScreen from './src/screens/NewPasswordScreen';
+
 /* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
  * LTI update could not be added via codemod */
 
 const App = () => {
   return (
     <SafeAreaView>  
-      <SignInScreen/>   
+      <NewPasswordScreen/>   
     </SafeAreaView>
   );
 };
